@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{392835BE-74B9-4ADA-B015-49D3DD3A8119}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExternalReferences</RootNamespace>
+    <AssemblyName>ExternalReferences</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Content Include="EnterpriseLibrary\5.0\EntLibConfig-32.exe" />
+    <Content Include="EnterpriseLibrary\5.0\EntLibConfig-32.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\EntLibConfig.exe" />
+    <Content Include="EnterpriseLibrary\5.0\EntLibConfig.NET4-32.exe" />
+    <Content Include="EnterpriseLibrary\5.0\EntLibConfig.NET4-32.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\EntLibConfig.NET4.exe" />
+    <Content Include="EnterpriseLibrary\5.0\EntLibConfig.NET4.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\EntLibConfig.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\MergeConfiguration.exe" />
+    <Content Include="EnterpriseLibrary\5.0\MergeConfiguration.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Caching.Database.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Caching.Database.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Caching.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Caching.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Common.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapter.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapterV5.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Configuration.DesignTime.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Configuration.DesignTime.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Data.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Logging.Database.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Logging.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Logging.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Security.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Security.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Validation.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.AspNet.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.AspNet.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.EnterpriseLibrary.Validation.pdb" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.ServiceLocation.xml" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.Unity.Configuration.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.Unity.Configuration.xml" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.Unity.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.Unity.Interception.dll" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.Unity.Interception.xml" />
+    <Content Include="EnterpriseLibrary\5.0\Microsoft.Practices.Unity.xml" />
+    <Content Include="EnterpriseLibrary\5.0\MsmqDistributor.exe" />
+    <Content Include="EnterpriseLibrary\5.0\MsmqDistributor.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EnterpriseLibrary\5.0\App.config" />
+    <None Include="EnterpriseLibrary\5.0\EntLib50.chm" />
+    <None Include="EnterpriseLibrary\5.0\EntLibConfig-32.exe.config" />
+    <None Include="EnterpriseLibrary\5.0\EntLibConfig.exe.config" />
+    <None Include="EnterpriseLibrary\5.0\EntLibConfig.NET4-32.exe.config" />
+    <None Include="EnterpriseLibrary\5.0\EntLibConfig.NET4.exe.config" />
+    <None Include="EnterpriseLibrary\5.0\MsmqDistributor.exe.config" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PostBuildEvent>REM DEL /F /Q $(TargetDir)*.*</PostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+</Project>
