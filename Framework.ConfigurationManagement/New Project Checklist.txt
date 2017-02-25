@@ -1,0 +1,26 @@
+New Project Checklist
+	- Link to the global AssemblyInfo file exists
+	- Link to the global AssemblyVersion file exists (If the AssemblyVersion file exists)
+	- CODE_ANALYSIS is defined for the debug build configuration
+	- "Treat warnings as errors" is enabled in both debug and release configurations
+	- "XML documentation" is enabled for Release builds only
+	- Target framework is set to ".NET Framework 3.5"
+	- [Optional] Build output is copied to the correct folder
+	- [VB Only] Option explicit is "On"
+	- [VB Only] Option strict is "On"
+	- [VB Only] Option compare is "Binary"
+	- [VB Only] Option infer is "Off"
+	- [VB Only] "Microsoft.VisualBasic" namespace is not imported by default
+	- [VB Only] Unused references do not exist
+	- Add the project output to the FxCop project
+	- Unit test project exists for the new project
+	- Unit test project output is added to the Gallio project
+	- Unit test project excluded from release configuration
+
+New Framework Project Checklist
+	- Version number is updated in the AssemblyVersion file
+		- Major version should only be updated when compatibility is broken. Ex: EL Upgrade
+	- [Optional] A folder for the new version is created in the external references project
+		- Folder name should only have the major and minor version
+	- Assembly is sign with the ECIS key
+	- Branch framework assemblies to the initiative that needs it

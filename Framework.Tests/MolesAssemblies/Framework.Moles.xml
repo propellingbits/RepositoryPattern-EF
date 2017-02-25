@@ -1,0 +1,1153 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Framework.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Framework.Moles.MAsyncResultBase">
+            <summary>Mole type of <see cref="T:Framework.AsyncResultBase"/>
+            .</summary>
+        </member>
+        <member name="M:Framework.Moles.MAsyncResultBase.#ctor(Framework.AsyncResultBase)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Framework.Moles.MAsyncResultBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Framework.Moles.MAsyncResultBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Framework.Moles.MAsyncResultBase.Bind(System.IAsyncResult)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Framework.Moles.MAsyncResultBase.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Framework.Moles.MAsyncResultBase.EndIAsyncResult``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.IAsyncResult,``0})">
+            <summary>Sets the mole of <see cref="M:Framework.AsyncResultBase.End``1(System.IAsyncResult)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.AsyncStateGet">
+            <summary>Sets the mole of <see cref="P:Framework.AsyncResultBase.AsyncState"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.AsyncWaitHandleGet">
+            <summary>Sets the mole of <see cref="P:Framework.AsyncResultBase.AsyncWaitHandle"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.CheckDisposed">
+            <summary>Sets the mole of <see cref="M:Framework.AsyncResultBase.CheckDisposed"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.CompleteBoolean">
+            <summary>Sets the mole of <see cref="M:Framework.AsyncResultBase.Complete(System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.CompleteBooleanException">
+            <summary>Sets the mole of <see cref="M:Framework.AsyncResultBase.Complete(System.Boolean,System.Exception)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.CompletedSynchronouslyGet">
+            <summary>Sets the mole of <see cref="P:Framework.AsyncResultBase.CompletedSynchronously"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.ConstructorAsyncCallbackObject">
+            <summary>Sets the mole of <see cref="M:Framework.AsyncResultBase.#ctor(System.AsyncCallback,System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.Dispose">
+            <summary>Sets the mole of <see cref="M:Framework.AsyncResultBase.Dispose"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.DisposeBoolean">
+            <summary>Sets the mole of <see cref="M:Framework.AsyncResultBase.Dispose(System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.IsCompletedGet">
+            <summary>Sets the mole of <see cref="P:Framework.AsyncResultBase.IsCompleted"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.IsDisposedGet">
+            <summary>Sets the mole of <see cref="P:Framework.AsyncResultBase.IsDisposed"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.PreserveStackTraceException">
+            <summary>Sets the mole of <see cref="M:Framework.AsyncResultBase.PreserveStackTrace(System.Exception)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.ThisLockGet">
+            <summary>Sets the mole of <see cref="P:Framework.AsyncResultBase.ThisLock"/>
+            </summary>
+        </member>
+        <member name="T:Framework.Moles.MAsyncResultBase.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.AllInstances.AsyncStateGet">
+            <summary>Sets the mole of <see cref="P:Framework.AsyncResultBase.AsyncState"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.AllInstances.AsyncWaitHandleGet">
+            <summary>Sets the mole of <see cref="P:Framework.AsyncResultBase.AsyncWaitHandle"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.AllInstances.CheckDisposed">
+            <summary>Sets the mole of <see cref="M:Framework.AsyncResultBase.CheckDisposed"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.AllInstances.CompleteBoolean">
+            <summary>Sets the mole of <see cref="M:Framework.AsyncResultBase.Complete(System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.AllInstances.CompleteBooleanException">
+            <summary>Sets the mole of <see cref="M:Framework.AsyncResultBase.Complete(System.Boolean,System.Exception)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.AllInstances.CompletedSynchronouslyGet">
+            <summary>Sets the mole of <see cref="P:Framework.AsyncResultBase.CompletedSynchronously"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.AllInstances.Dispose">
+            <summary>Sets the mole of <see cref="M:Framework.AsyncResultBase.Dispose"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.AllInstances.DisposeBoolean">
+            <summary>Sets the mole of <see cref="M:Framework.AsyncResultBase.Dispose(System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.AllInstances.IsCompletedGet">
+            <summary>Sets the mole of <see cref="P:Framework.AsyncResultBase.IsCompleted"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.AllInstances.IsDisposedGet">
+            <summary>Sets the mole of <see cref="P:Framework.AsyncResultBase.IsDisposed"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MAsyncResultBase.AllInstances.ThisLockGet">
+            <summary>Sets the mole of <see cref="P:Framework.AsyncResultBase.ThisLock"/>
+            </summary>
+        </member>
+        <member name="T:Framework.Collections.Moles.MConfigurationElementCollectionExtensions">
+            <summary>Mole type of <see cref="T:Framework.Collections.ConfigurationElementCollectionExtensions"/>
+            .</summary>
+        </member>
+        <member name="M:Framework.Collections.Moles.MConfigurationElementCollectionExtensions.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Collections.Moles.MConfigurationElementCollectionExtensions.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Framework.Collections.Moles.MConfigurationElementCollectionExtensions.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Framework.Collections.Moles.MConfigurationElementCollectionExtensions.ToIDictionaryConfigurationElementCollectionString``2(Microsoft.Moles.Framework.MolesDelegates.Func{System.Configuration.ConfigurationElementCollection,System.String,System.Collections.Generic.IDictionary{``0,``1}})">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.ConfigurationElementCollectionExtensions.ToIDictionary``2(System.Configuration.ConfigurationElementCollection,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Moles.MConfigurationElementCollectionExtensions.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="T:Framework.Collections.Generic.Moles.MLockDictionary`1">
+            <summary>Mole type of <see cref="T:Framework.Collections.Generic.LockDictionary`1"/>
+            .</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MLockDictionary`1.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MLockDictionary`1.#ctor(Framework.Collections.Generic.LockDictionary{`0})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MLockDictionary`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MLockDictionary`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MLockDictionary`1.Bind(Framework.Collections.Generic.ILockDictionary{`0})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MLockDictionary`1.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MLockDictionary`1.Constructor">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.LockDictionary`1.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MLockDictionary`1.GetLockTKey">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.LockDictionary`1.GetLock(`1)"/>
+            </summary>
+        </member>
+        <member name="T:Framework.Collections.Generic.Moles.MLockDictionary`1.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MLockDictionary`1.AllInstances.GetLockTKey">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.LockDictionary`1.GetLock(`1)"/>
+            </summary>
+        </member>
+        <member name="T:Framework.Runtime.Caching.Moles.MObjectCacheExtensions">
+            <summary>Mole type of <see cref="T:Framework.Runtime.Caching.ObjectCacheExtensions"/>
+            .</summary>
+        </member>
+        <member name="M:Framework.Runtime.Caching.Moles.MObjectCacheExtensions.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Runtime.Caching.Moles.MObjectCacheExtensions.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Framework.Runtime.Caching.Moles.MObjectCacheExtensions.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Framework.Runtime.Caching.Moles.MObjectCacheExtensions.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Framework.Runtime.Caching.Moles.MObjectCacheExtensions.FlushObjectCache">
+            <summary>Sets the mole of <see cref="M:Framework.Runtime.Caching.ObjectCacheExtensions.Flush(System.Runtime.Caching.ObjectCache)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Runtime.Caching.Moles.MObjectCacheExtensions._Flushb__0KeyValuePairOfStringObject">
+            <summary>Sets the mole of <see cref="M:Framework.Runtime.Caching.ObjectCacheExtensions.&lt;Flush&gt;b__0(System.Collections.Generic.KeyValuePair`2{System.String,System.Object})"/>
+            </summary>
+        </member>
+        <member name="T:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2">
+            <summary>Mole type of <see cref="T:Framework.Collections.Generic.ReadOnlyDictionary`2"/>
+            .</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.#ctor(Framework.Collections.Generic.ReadOnlyDictionary{`0,`1})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.Bind(System.Collections.IEnumerable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.Bind(System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{`0,`1}})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.Bind(System.Collections.Generic.IDictionary{`0,`1})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.Bind(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.ConstructorIDictionaryOfTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.#ctor(System.Collections.Generic.IDictionary`2{`1,`2})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.ContainsKeyTKey">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.ContainsKey(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.ContainsKeyValuePairOfTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.Contains(System.Collections.Generic.KeyValuePair`2{`1,`2})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.CopyToKeyValuePairOfTKeyTValueArrayInt32">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair`2{`1,`2}[],System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.CountGet">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.ReadOnlyDictionary`2.Count"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.GetEnumerator">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.GetEnumerator"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.IsReadOnlyGet">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.ReadOnlyDictionary`2.IsReadOnly"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.ItemGetTKey">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.ReadOnlyDictionary`2.Item(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.ItemSystemCollectionsGenericIDictionaryTKeyTValuegetTKey">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.get_Item(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.ItemSystemCollectionsGenericIDictionaryTKeyTValuesetTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.set_Item(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.KeysGet">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.ReadOnlyDictionary`2.Keys"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.SystemCollectionsGenericICollectionSystemCollectionsGenericKeyValuePairTKeyTValueAddKeyValuePairOfTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.Add(System.Collections.Generic.KeyValuePair`2{`1,`2})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.SystemCollectionsGenericICollectionSystemCollectionsGenericKeyValuePairTKeyTValueClear">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.Clear"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.SystemCollectionsGenericICollectionSystemCollectionsGenericKeyValuePairTKeyTValueRemoveKeyValuePairOfTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.Remove(System.Collections.Generic.KeyValuePair`2{`1,`2})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.SystemCollectionsGenericIDictionaryTKeyTValueAddTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.Add(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.SystemCollectionsGenericIDictionaryTKeyTValueRemoveTKey">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.Remove(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.System.Collections.IEnumerable.GetEnumerator"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.TryGetValueTKeyTValueOut">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.TryGetValue(`1,`2@)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.ValuesGet">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.ReadOnlyDictionary`2.Values"/>
+            </summary>
+        </member>
+        <member name="T:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.ContainsKeyTKey">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.ContainsKey(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.ContainsKeyValuePairOfTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.Contains(System.Collections.Generic.KeyValuePair`2{`1,`2})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.CopyToKeyValuePairOfTKeyTValueArrayInt32">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair`2{`1,`2}[],System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.CountGet">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.ReadOnlyDictionary`2.Count"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.GetEnumerator">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.GetEnumerator"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.IsReadOnlyGet">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.ReadOnlyDictionary`2.IsReadOnly"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.ItemGetTKey">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.ReadOnlyDictionary`2.Item(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.ItemSystemCollectionsGenericIDictionaryTKeyTValuegetTKey">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.get_Item(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.ItemSystemCollectionsGenericIDictionaryTKeyTValuesetTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.set_Item(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.KeysGet">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.ReadOnlyDictionary`2.Keys"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.SystemCollectionsGenericICollectionSystemCollectionsGenericKeyValuePairTKeyTValueAddKeyValuePairOfTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.Add(System.Collections.Generic.KeyValuePair`2{`1,`2})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.SystemCollectionsGenericICollectionSystemCollectionsGenericKeyValuePairTKeyTValueClear">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.Clear"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.SystemCollectionsGenericICollectionSystemCollectionsGenericKeyValuePairTKeyTValueRemoveKeyValuePairOfTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.Remove(System.Collections.Generic.KeyValuePair`2{`1,`2})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.SystemCollectionsGenericIDictionaryTKeyTValueAddTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.Add(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.SystemCollectionsGenericIDictionaryTKeyTValueRemoveTKey">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.Remove(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.System.Collections.IEnumerable.GetEnumerator"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.TryGetValueTKeyTValueOut">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.ReadOnlyDictionary`2.TryGetValue(`1,`2@)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MReadOnlyDictionary`2.AllInstances.ValuesGet">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.ReadOnlyDictionary`2.Values"/>
+            </summary>
+        </member>
+        <member name="T:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2">
+            <summary>Mole type of <see cref="T:Framework.Collections.Generic.SynchronizedDictionary`2"/>
+            .</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.#ctor(Framework.Collections.Generic.SynchronizedDictionary{`0,`1})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.Bind(Framework.Collections.Generic.ISynchronizedDictionary{`0,`1})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.Bind(System.Collections.IEnumerable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.Bind(System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{`0,`1}})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.Bind(System.Collections.Generic.IDictionary{`0,`1})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.Bind(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AddKeyValuePairOfTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.Add(System.Collections.Generic.KeyValuePair`2{`1,`2})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AddOrUpdateTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.AddOrUpdate(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AddTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.Add(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.Clear">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.Clear"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.Constructor">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.ConstructorIDictionaryOfTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.#ctor(System.Collections.Generic.IDictionary`2{`1,`2})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.ConstructorIDictionaryOfTKeyTValueIEqualityComparerOfTKey">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.#ctor(System.Collections.Generic.IDictionary`2{`1,`2},System.Collections.Generic.IEqualityComparer`1{`1})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.ConstructorIEqualityComparerOfTKey">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.#ctor(System.Collections.Generic.IEqualityComparer`1{`1})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.ConstructorInt32">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.#ctor(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.ConstructorInt32IEqualityComparerOfTKey">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer`1{`1})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.ContainsKeyTKey">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.ContainsKey(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.ContainsKeyValuePairOfTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.Contains(System.Collections.Generic.KeyValuePair`2{`1,`2})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.CopyToKeyValuePairOfTKeyTValueArrayInt32">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair`2{`1,`2}[],System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.CountGet">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.SynchronizedDictionary`2.Count"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.Dispose">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.Dispose"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.DisposeBoolean">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.Dispose(System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.GetEnumerator">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.GetEnumerator"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.IsReadOnlyGet">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.SynchronizedDictionary`2.IsReadOnly"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.ItemGetTKey">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.SynchronizedDictionary`2.Item(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.ItemSetTKeyTValue">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.SynchronizedDictionary`2.Item(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.KeysGet">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.SynchronizedDictionary`2.Keys"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.RemoveKeyValuePairOfTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.Remove(System.Collections.Generic.KeyValuePair`2{`1,`2})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.RemoveTKey">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.Remove(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.System.Collections.IEnumerable.GetEnumerator"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.TryAddTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.TryAdd(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.TryGetValueTKeyTValueOut">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.TryGetValue(`1,`2@)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.TryRemoveTKeyTValueOut">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.TryRemove(`1,`2@)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.TryUpdateTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.TryUpdate(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.ValuesGet">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.SynchronizedDictionary`2.Values"/>
+            </summary>
+        </member>
+        <member name="T:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.AddKeyValuePairOfTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.Add(System.Collections.Generic.KeyValuePair`2{`1,`2})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.AddOrUpdateTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.AddOrUpdate(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.AddTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.Add(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.Clear">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.Clear"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.ContainsKeyTKey">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.ContainsKey(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.ContainsKeyValuePairOfTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.Contains(System.Collections.Generic.KeyValuePair`2{`1,`2})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.CopyToKeyValuePairOfTKeyTValueArrayInt32">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair`2{`1,`2}[],System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.CountGet">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.SynchronizedDictionary`2.Count"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.Dispose">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.Dispose"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.DisposeBoolean">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.Dispose(System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.GetEnumerator">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.GetEnumerator"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.IsReadOnlyGet">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.SynchronizedDictionary`2.IsReadOnly"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.ItemGetTKey">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.SynchronizedDictionary`2.Item(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.ItemSetTKeyTValue">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.SynchronizedDictionary`2.Item(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.KeysGet">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.SynchronizedDictionary`2.Keys"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.RemoveKeyValuePairOfTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.Remove(System.Collections.Generic.KeyValuePair`2{`1,`2})"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.RemoveTKey">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.Remove(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.System.Collections.IEnumerable.GetEnumerator"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.TryAddTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.TryAdd(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.TryGetValueTKeyTValueOut">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.TryGetValue(`1,`2@)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.TryRemoveTKeyTValueOut">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.TryRemove(`1,`2@)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.TryUpdateTKeyTValue">
+            <summary>Sets the mole of <see cref="M:Framework.Collections.Generic.SynchronizedDictionary`2.TryUpdate(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.MSynchronizedDictionary`2.AllInstances.ValuesGet">
+            <summary>Sets the mole of <see cref="P:Framework.Collections.Generic.SynchronizedDictionary`2.Values"/>
+            </summary>
+        </member>
+        <member name="T:Framework.Moles.MUnhandledException">
+            <summary>Mole type of <see cref="T:Framework.UnhandledException"/>
+            .</summary>
+        </member>
+        <member name="M:Framework.Moles.MUnhandledException.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Framework.Moles.MUnhandledException.#ctor(Framework.UnhandledException)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Framework.Moles.MUnhandledException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Framework.Moles.MUnhandledException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Framework.Moles.MUnhandledException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledException.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledException.Constructor">
+            <summary>Sets the mole of <see cref="M:Framework.UnhandledException.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledException.ConstructorSerializationInfoStreamingContext">
+            <summary>Sets the mole of <see cref="M:Framework.UnhandledException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledException.ConstructorString">
+            <summary>Sets the mole of <see cref="M:Framework.UnhandledException.#ctor(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledException.ConstructorStringException">
+            <summary>Sets the mole of <see cref="M:Framework.UnhandledException.#ctor(System.String,System.Exception)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledException.DetailedMessageGet">
+            <summary>Sets the mole of <see cref="P:Framework.UnhandledException.DetailedMessage"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledException.ErrorNumberGet">
+            <summary>Sets the mole of <see cref="P:Framework.UnhandledException.ErrorNumber"/>
+            </summary>
+        </member>
+        <member name="T:Framework.Moles.MUnhandledException.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledException.AllInstances.DetailedMessageGet">
+            <summary>Sets the mole of <see cref="P:Framework.UnhandledException.DetailedMessage"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledException.AllInstances.ErrorNumberGet">
+            <summary>Sets the mole of <see cref="P:Framework.UnhandledException.ErrorNumber"/>
+            </summary>
+        </member>
+        <member name="T:Framework.Moles.MUnhandledMscorlibException">
+            <summary>Mole type of <see cref="T:Framework.UnhandledMscorlibException"/>
+            .</summary>
+        </member>
+        <member name="M:Framework.Moles.MUnhandledMscorlibException.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Framework.Moles.MUnhandledMscorlibException.#ctor(Framework.UnhandledMscorlibException)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Framework.Moles.MUnhandledMscorlibException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Framework.Moles.MUnhandledMscorlibException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Framework.Moles.MUnhandledMscorlibException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledMscorlibException.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledMscorlibException.Constructor">
+            <summary>Sets the mole of <see cref="M:Framework.UnhandledMscorlibException.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledMscorlibException.ConstructorSerializationInfoStreamingContext">
+            <summary>Sets the mole of <see cref="M:Framework.UnhandledMscorlibException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledMscorlibException.ConstructorString">
+            <summary>Sets the mole of <see cref="M:Framework.UnhandledMscorlibException.#ctor(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledMscorlibException.ConstructorStringException">
+            <summary>Sets the mole of <see cref="M:Framework.UnhandledMscorlibException.#ctor(System.String,System.Exception)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledMscorlibException.DataGet">
+            <summary>Sets the mole of <see cref="P:Framework.UnhandledMscorlibException.Data"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledMscorlibException.DetailedMessageGet">
+            <summary>Sets the mole of <see cref="P:Framework.UnhandledMscorlibException.DetailedMessage"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledMscorlibException.ErrorNumberGet">
+            <summary>Sets the mole of <see cref="P:Framework.UnhandledMscorlibException.ErrorNumber"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledMscorlibException.ProcessException">
+            <summary>Sets the mole of <see cref="M:Framework.UnhandledMscorlibException.ProcessException"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledMscorlibException.ToString">
+            <summary>Sets the mole of <see cref="M:Framework.UnhandledMscorlibException.ToString"/>
+            </summary>
+        </member>
+        <member name="T:Framework.Moles.MUnhandledMscorlibException.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledMscorlibException.AllInstances.DataGet">
+            <summary>Sets the mole of <see cref="P:Framework.UnhandledMscorlibException.Data"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledMscorlibException.AllInstances.DetailedMessageGet">
+            <summary>Sets the mole of <see cref="P:Framework.UnhandledMscorlibException.DetailedMessage"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledMscorlibException.AllInstances.ErrorNumberGet">
+            <summary>Sets the mole of <see cref="P:Framework.UnhandledMscorlibException.ErrorNumber"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledMscorlibException.AllInstances.ProcessException">
+            <summary>Sets the mole of <see cref="M:Framework.UnhandledMscorlibException.ProcessException"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.MUnhandledMscorlibException.AllInstances.ToString01">
+            <summary>Sets the mole of <see cref="M:Framework.UnhandledMscorlibException.ToString"/>
+            </summary>
+        </member>
+        <member name="T:Framework.Moles.SAsyncResultBase">
+            <summary>Stub type of <see cref="T:Framework.AsyncResultBase"/>
+            .</summary>
+        </member>
+        <member name="M:Framework.Moles.SAsyncResultBase.#ctor(System.AsyncCallback,System.Object)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Moles.SAsyncResultBase.Dispose(System.Boolean)">
+            <summary>Sets the stub of <see cref="M:Framework.AsyncResultBase.Dispose(System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Moles.SAsyncResultBase.DisposeBoolean">
+            <summary>Sets the stub of <see cref="M:Framework.AsyncResultBase.Dispose(System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Moles.SAsyncResultBase.InitializeStub">
+            <summary>Initializes a new instance of type SAsyncResultBase</summary>
+        </member>
+        <member name="P:Framework.Moles.SAsyncResultBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Framework.Moles.SAsyncResultBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Framework.Collections.Generic.Moles.SILockDictionary`1">
+            <summary>Stub type of <see cref="T:Framework.Collections.Generic.ILockDictionary`1"/>
+            .</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SILockDictionary`1.#ctor">
+            <summary>Initializes a new instance of type SILockDictionary</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SILockDictionary`1.f::Framework#Collections#Generic#ILockDictionary{TKey}#GetLock(`0)">
+            <summary>Sets the stub of <see cref="M:Framework.Collections.Generic.ILockDictionary`1.GetLock(`1)"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SILockDictionary`1.GetLockTKey">
+            <summary>Sets the stub of <see cref="M:Framework.Collections.Generic.ILockDictionary`1.GetLock(`1)"/>
+            </summary>
+        </member>
+        <member name="T:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2">
+            <summary>Stub type of <see cref="T:Framework.Collections.Generic.ISynchronizedDictionary`2"/>
+            .</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.#ctor">
+            <summary>Initializes a new instance of type SISynchronizedDictionary</summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.AddKeyValuePairOfTKeyTValue">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.ICollection`1.Add(`1)"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.AddOrUpdateTKeyTValue">
+            <summary>Sets the stub of <see cref="M:Framework.Collections.Generic.ISynchronizedDictionary`2.AddOrUpdate(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.AddTKeyTValue">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.IDictionary`2.Add(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.Clear">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.ICollection`1.Clear"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.ContainsKeyTKey">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.IDictionary`2.ContainsKey(`1)"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.ContainsKeyValuePairOfTKeyTValue">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.ICollection`1.Contains(`1)"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.CopyToKeyValuePairOfTKeyTValueArrayInt32">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.ICollection`1.CopyTo(`1[],System.Int32)"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.CountGet">
+            <summary>Sets the stub of <see cref="P:System.Collections.Generic.ICollection`1.Count"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.f::Framework#Collections#Generic#ISynchronizedDictionary{TKey@TValue}#AddOrUpdate(`0,`1)">
+            <summary>Sets the stub of <see cref="M:Framework.Collections.Generic.ISynchronizedDictionary`2.AddOrUpdate(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.f::Framework#Collections#Generic#ISynchronizedDictionary{TKey@TValue}#TryAdd(`0,`1)">
+            <summary>Sets the stub of <see cref="M:Framework.Collections.Generic.ISynchronizedDictionary`2.TryAdd(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.f::Framework#Collections#Generic#ISynchronizedDictionary{TKey@TValue}#TryRemove(`0,`1@)">
+            <summary>Sets the stub of <see cref="M:Framework.Collections.Generic.ISynchronizedDictionary`2.TryRemove(`1,`2@)"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.f::Framework#Collections#Generic#ISynchronizedDictionary{TKey@TValue}#TryUpdate(`0,`1)">
+            <summary>Sets the stub of <see cref="M:Framework.Collections.Generic.ISynchronizedDictionary`2.TryUpdate(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.GetEnumerator">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.IEnumerable`1.GetEnumerator"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.GetEnumerator01">
+            <summary>Sets the stub of <see cref="M:System.Collections.IEnumerable.GetEnumerator"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.IsReadOnlyGet">
+            <summary>Sets the stub of <see cref="P:System.Collections.Generic.ICollection`1.IsReadOnly"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.ItemGetTKey">
+            <summary>Sets the stub of <see cref="P:System.Collections.Generic.IDictionary`2.Item(`1)"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.ItemSetTKeyTValue">
+            <summary>Sets the stub of <see cref="P:System.Collections.Generic.IDictionary`2.Item(`1)"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.KeysGet">
+            <summary>Sets the stub of <see cref="P:System.Collections.Generic.IDictionary`2.Keys"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.RemoveKeyValuePairOfTKeyTValue">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.ICollection`1.Remove(`1)"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.RemoveTKey">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.IDictionary`2.Remove(`1)"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.global::System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey@TValue}}#Add(System.Collections.Generic.KeyValuePair{`0,`1})">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.ICollection`1.Add(`1)"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.global::System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey@TValue}}#Clear">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.ICollection`1.Clear"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.global::System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey@TValue}}#Contains(System.Collections.Generic.KeyValuePair{`0,`1})">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.ICollection`1.Contains(`1)"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.global::System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey@TValue}}#CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.ICollection`1.CopyTo(`1[],System.Int32)"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.global::System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey@TValue}}#Remove(System.Collections.Generic.KeyValuePair{`0,`1})">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.ICollection`1.Remove(`1)"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.global::System#Collections#Generic#IDictionary{TKey@TValue}#Add(`0,`1)">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.IDictionary`2.Add(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.global::System#Collections#Generic#IDictionary{TKey@TValue}#ContainsKey(`0)">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.IDictionary`2.ContainsKey(`1)"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.global::System#Collections#Generic#IDictionary{TKey@TValue}#Remove(`0)">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.IDictionary`2.Remove(`1)"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.global::System#Collections#Generic#IDictionary{TKey@TValue}#TryGetValue(`0,`1@)">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.IDictionary`2.TryGetValue(`1,`2@)"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.global::System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{TKey@TValue}}#GetEnumerator">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.IEnumerable`1.GetEnumerator"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.global::System#Collections#IEnumerable#GetEnumerator">
+            <summary>Sets the stub of <see cref="M:System.Collections.IEnumerable.GetEnumerator"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.TryAddTKeyTValue">
+            <summary>Sets the stub of <see cref="M:Framework.Collections.Generic.ISynchronizedDictionary`2.TryAdd(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.TryGetValueTKeyTValueOut">
+            <summary>Sets the stub of <see cref="M:System.Collections.Generic.IDictionary`2.TryGetValue(`1,`2@)"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.TryRemoveTKeyTValueOut">
+            <summary>Sets the stub of <see cref="M:Framework.Collections.Generic.ISynchronizedDictionary`2.TryRemove(`1,`2@)"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.TryUpdateTKeyTValue">
+            <summary>Sets the stub of <see cref="M:Framework.Collections.Generic.ISynchronizedDictionary`2.TryUpdate(`1,`2)"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.ValuesGet">
+            <summary>Sets the stub of <see cref="P:System.Collections.Generic.IDictionary`2.Values"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.global::System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey@TValue}}#Count">
+            <summary>Sets the stub of <see cref="P:System.Collections.Generic.ICollection`1.Count"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.global::System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey@TValue}}#IsReadOnly">
+            <summary>Sets the stub of <see cref="P:System.Collections.Generic.ICollection`1.IsReadOnly"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.System#Collections#Generic#IDictionary{TKey@TValue}#Item(`0)">
+            <summary>Sets the stub of <see cref="P:System.Collections.Generic.IDictionary`2.Item(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.global::System#Collections#Generic#IDictionary{TKey@TValue}#Keys">
+            <summary>Sets the stub of <see cref="P:System.Collections.Generic.IDictionary`2.Keys"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.SISynchronizedDictionary`2.global::System#Collections#Generic#IDictionary{TKey@TValue}#Values">
+            <summary>Sets the stub of <see cref="P:System.Collections.Generic.IDictionary`2.Values"/>
+            </summary>
+        </member>
+        <member name="T:Framework.Collections.Generic.Moles.SLockDictionary`1">
+            <summary>Stub type of <see cref="T:Framework.Collections.Generic.LockDictionary`1"/>
+            .</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SLockDictionary`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SLockDictionary`1.InitializeStub">
+            <summary>Initializes a new instance of type SLockDictionary</summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.SLockDictionary`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.SLockDictionary`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Framework.Collections.Generic.Moles.SReadOnlyDictionary`2">
+            <summary>Stub type of <see cref="T:Framework.Collections.Generic.ReadOnlyDictionary`2"/>
+            .</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SReadOnlyDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SReadOnlyDictionary`2.InitializeStub">
+            <summary>Initializes a new instance of type SReadOnlyDictionary</summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.SReadOnlyDictionary`2.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.SReadOnlyDictionary`2.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Framework.Collections.Generic.Moles.SSynchronizedDictionary`2">
+            <summary>Stub type of <see cref="T:Framework.Collections.Generic.SynchronizedDictionary`2"/>
+            .</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SSynchronizedDictionary`2.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SSynchronizedDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SSynchronizedDictionary`2.#ctor(System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SSynchronizedDictionary`2.#ctor(System.Collections.Generic.IEqualityComparer{`0})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SSynchronizedDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1},System.Collections.Generic.IEqualityComparer{`0})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SSynchronizedDictionary`2.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Collections.Generic.Moles.SSynchronizedDictionary`2.InitializeStub">
+            <summary>Initializes a new instance of type SSynchronizedDictionary</summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.SSynchronizedDictionary`2.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Framework.Collections.Generic.Moles.SSynchronizedDictionary`2.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Framework.Moles.SUnhandledException">
+            <summary>Stub type of <see cref="T:Framework.UnhandledException"/>
+            .</summary>
+        </member>
+        <member name="M:Framework.Moles.SUnhandledException.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Moles.SUnhandledException.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Moles.SUnhandledException.#ctor(System.String,System.Exception)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Moles.SUnhandledException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:Framework.Moles.SUnhandledException.DetailedMessageGet">
+            <summary>Sets the stub of <see cref="P:Framework.UnhandledException.DetailedMessage"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Moles.SUnhandledException.ErrorNumberGet">
+            <summary>Sets the stub of <see cref="P:Framework.UnhandledException.ErrorNumber"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Moles.SUnhandledException.InitializeStub">
+            <summary>Initializes a new instance of type SUnhandledException</summary>
+        </member>
+        <member name="P:Framework.Moles.SUnhandledException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Framework.Moles.SUnhandledException.DetailedMessage">
+            <summary>Sets the stub of <see cref="P:Framework.UnhandledException.DetailedMessage"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.SUnhandledException.ErrorNumber">
+            <summary>Sets the stub of <see cref="P:Framework.UnhandledException.ErrorNumber"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.SUnhandledException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Framework.Moles.SUnhandledMscorlibException">
+            <summary>Stub type of <see cref="T:Framework.UnhandledMscorlibException"/>
+            .</summary>
+        </member>
+        <member name="M:Framework.Moles.SUnhandledMscorlibException.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Moles.SUnhandledMscorlibException.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Moles.SUnhandledMscorlibException.#ctor(System.String,System.Exception)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Framework.Moles.SUnhandledMscorlibException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:Framework.Moles.SUnhandledMscorlibException.DataGet">
+            <summary>Sets the stub of <see cref="P:Framework.UnhandledMscorlibException.Data"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Moles.SUnhandledMscorlibException.DetailedMessageGet">
+            <summary>Sets the stub of <see cref="P:Framework.UnhandledMscorlibException.DetailedMessage"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Moles.SUnhandledMscorlibException.ErrorNumberGet">
+            <summary>Sets the stub of <see cref="P:Framework.UnhandledMscorlibException.ErrorNumber"/>
+            </summary>
+        </member>
+        <member name="M:Framework.Moles.SUnhandledMscorlibException.InitializeStub">
+            <summary>Initializes a new instance of type SUnhandledMscorlibException</summary>
+        </member>
+        <member name="M:Framework.Moles.SUnhandledMscorlibException.ToString">
+            <summary>Sets the stub of <see cref="M:Framework.UnhandledMscorlibException.ToString"/>
+            </summary>
+        </member>
+        <member name="F:Framework.Moles.SUnhandledMscorlibException.ToString01">
+            <summary>Sets the stub of <see cref="M:Framework.UnhandledMscorlibException.ToString"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.SUnhandledMscorlibException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Framework.Moles.SUnhandledMscorlibException.Data">
+            <summary>Sets the stub of <see cref="P:Framework.UnhandledMscorlibException.Data"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.SUnhandledMscorlibException.DetailedMessage">
+            <summary>Sets the stub of <see cref="P:Framework.UnhandledMscorlibException.DetailedMessage"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.SUnhandledMscorlibException.ErrorNumber">
+            <summary>Sets the stub of <see cref="P:Framework.UnhandledMscorlibException.ErrorNumber"/>
+            </summary>
+        </member>
+        <member name="P:Framework.Moles.SUnhandledMscorlibException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>

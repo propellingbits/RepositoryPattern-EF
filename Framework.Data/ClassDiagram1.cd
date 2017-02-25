@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Framework.Data.Properties.Resources" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAEAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Data.Properties.Settings" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAIAAAAAABAAAAAAEAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Data.ReferenceTables.Configuration.ReferenceTableRepositoryElement" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReferenceTables\Configuration\ReferenceTableRepositoryElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Data.ReferenceTables.Configuration.ReferenceTablesSection" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReferenceTables\Configuration\ReferenceTablesSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Data.ReferenceTables.NoRefTableResultsException" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReferenceTables\NoRefTableResultsException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Data.ReferenceTables.ReferenceTableException" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReferenceTables\ReferenceTableException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Data.ReferenceTables.ReferenceTableReader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAIIAAAAQAAAgAACAYAAAAAAIAAAIBgAACAAAE=</HashCode>
+      <FileName>ReferenceTables\ReferenceTableReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Framework.Data.ReferenceTables.ReferenceTableRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAEAABgAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAACA=</HashCode>
+      <FileName>ReferenceTables\ReferenceTableRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Framework.Data.ReferenceTables.TooManyRefTableResultsException" Collapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReferenceTables\TooManyRefTableResultsException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Data.Repository.EF.Context.ScopeObjectSourceManager&lt;TObjectSource&gt;" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\EF\Context\ScopeObjectSourceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Data.Repository.EF.Context.StaticObjectSourceManager&lt;TObjectSource&gt;" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAQAAAAAQAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Repository\EF\Context\StaticObjectSourceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Data.Repository.EF.Context.WebObjectSourceManager&lt;TObjectSource&gt;" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\EF\Context\WebObjectSourceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Data.Repository.EF.DesktopUnitOfWork" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Repository\EF\DesktopUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Data.Repository.EF.EntityRepository&lt;TEntity&gt;" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAZAApCAACAQAAAAAAAgBANAAAEIAEAAAmAAIAABBAA=</HashCode>
+      <FileName>Repository\EF\EntityRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Data.Repository.EF.UnitOfWork" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACgAAAAAAAQAAAAAAAAAAAAAAAgAAAAAAEA=</HashCode>
+      <FileName>Repository\EF\UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Data.Repository.EF.UnitOfWorkFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\EF\UnitOfWorkFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Framework.Data.Repository.EF.Exception.ValidationException" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\EF\Exception\ValidationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Data.Repository.ObjectSourceManager&lt;TObjectSource&gt;" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\ObjectSourceManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Framework.Data.Repository.RepositoryBase&lt;TEntity&gt;" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYABIAAACAEABAAAAAgAABAAAEIAEAUAAAAAAABAAA=</HashCode>
+      <FileName>Repository\RepositoryBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Framework.Data.Repository.Specification&lt;TEntity&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\Specification.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Framework.Data.Repository.UnitOfWorkBase" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAAQAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Repository\UnitOfWorkBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Framework.Data.Repository.UnitOfWorkException" Collapsed="true">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\UnitOfWorkException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Data.Repository.UnitOfWorkScope" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAACAIAAsAAgAAAACAQAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Repository\UnitOfWorkScope.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="Framework.Data.ReferenceTables.ReferenceTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAIIAAAAECEgAAAAAYAAAAAAIAAAIBAAAAAAiA=</HashCode>
+      <FileName>ReferenceTables\ReferenceTable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Framework.Data.ReferenceTables.ReferenceTableRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAACAAAAACAAAEgBQIAAAAAQABAIAAAAIAAQAAiyg=</HashCode>
+      <FileName>ReferenceTables\ReferenceTableRow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Interface Name="Framework.Data.ReferenceTables.IReferenceTable" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReferenceTables\IReferenceTable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.Data.ReferenceTables.IReferenceTableReader" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIIAAAAAAAAAAAAAYAAAAAAAAAAIBAAAAAAAA=</HashCode>
+      <FileName>ReferenceTables\IReferenceTableReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.Data.ReferenceTables.IReferenceTableRepository" Collapsed="true">
+    <Position X="10.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>ReferenceTables\IReferenceTableRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.Data.Repository.IObjectSource&lt;TObjectSource&gt;" Collapsed="true">
+    <Position X="9" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\IObjectSource.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.Data.Repository.IRepository&lt;TEntity&gt;" Collapsed="true">
+    <Position X="12.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAIAAAAAAAAAAAAAAAAAAAAEIAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.Data.Repository.ISpecification&lt;TEntity&gt;" Collapsed="true">
+    <Position X="14.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\ISpecification.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.Data.Repository.IUnitOfWork" Collapsed="true">
+    <Position X="9" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\IUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.Data.Repository.IUnitOfWorkFactory" Collapsed="true">
+    <Position X="10.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\IUnitOfWorkFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Framework.Data.Repository.IUnitOfWorkScope" Collapsed="true">
+    <Position X="12.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\IUnitOfWorkScope.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Framework.Data.Repository.ScopeOptions" Collapsed="true">
+    <Position X="9" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Repository\ScopeOptions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by Microsoft.Moles to generate moles and stubs 
+for all types in the assembly under test.
+-->
+<Moles xmlns="http://schemas.microsoft.com/moles/2010/">
+  <Assembly Name="Framework" />
+</Moles>

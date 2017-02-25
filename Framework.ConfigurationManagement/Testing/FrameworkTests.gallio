@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gallio.org/">
+  <testPackage shadowCopy="false" debug="false">
+    <files>
+      <file>..\..\Framework.Tests\bin\Debug\Framework.Tests.dll</file>
+      <file>..\..\Framework.Data.Tests\bin\Debug\Framework.Data.Tests.dll</file>
+      <file>..\..\Framework.Messaging.Tests\bin\Debug\Framework.Messaging.Tests.dll</file>
+      <file>..\..\Itasca.RefTableUtility.Tests\bin\Debug\PA.DPW.eCIS.Itasca.RefTableUtility.Tests.dll</file>
+      <file>..\..\Framework.Management.Instrumentation.Tests\bin\Debug\Framework.Management.Instrumentation.Tests.dll</file>
+      <file>..\..\Service.Infrastructure.Tests\bin\Debug\Service.Infrastructure.Tests.dll</file>
+      <file>..\..\ServiceGateway.Utilities.Tests\bin\Debug\PA.DPW.ServiceGateway.Utilities.Tests.dll</file>
+      <file>..\..\Validation.Tests\bin\Debug\Validation.Tests.dll</file>
+      <file>..\..\Framework.ServiceModel.Tests\bin\Debug\Framework.ServiceModel.Tests.dll</file>
+    </files>
+    <hintDirectories />
+    <excludedFrameworkIds />
+    <properties />
+  </testPackage>
+  <testFilters>
+    <testFilter filterName="LastRun" filterExpr="Id: 72787f04ea428afb" />
+    <testFilter filterName="AutoSave" filterExpr="((Id: 7ac6c924d3a2db09 or Id: 97761b86f663e33b) or Id: 719ac2d39f810dd6 or (Id: 6fc3bf13a47e3371 or Id: 6ab773476be04bff or Id: d8e15fb0336cfc7 or Id: efb76d8a182a2981 or Id: f3735408a3f9967e or Id: c2bf2dbbca87515b or (Id: ef3d6da3b4f11f70 or Id: 13eaf80af15ad500 or Id: d35033bd28984ee7 or Id: 9298d015a883f824 or Id: faf06a9008a9f757 or Id: 5941b625eed2fe32 or Id: b9347f811d458780 or Id: fdf88e024677759e or Id: b369503158ac842a or Id: de52a6eb7db5ffbd or Id: 8eaca7c7a8c67bfb or Id: 572d6d9a4149e718 or Id: 130bf1b3589eaaaa or Id: d5ed50d5f5abc243 or Id: 3b55ad757ce01ac3 or Id: 1959c1ed1f932641 or Id: 4ebc9d2b9a3a26ab or Id: 4badcada13cfec31 or Id: 96495baa37fb7db or Id: 605c1ab5c40b3bb7 or Id: c321f59a2da37561 or Id: 8fec77eac134cfd3 or Id: b9db68ce6f5dafad or Id: 7aac0c4fc7a082c or Id: d608c62489f818f3 or Id: a657acd0ff9e3dd1 or Id: fca819362d639116 or Id: 5985bff9d9156162) or Id: 8697e4f9eb94b5e2 or Id: 147984a6fed65655))" />
+  </testFilters>
+  <extensionSpecifications />
+  <reportDirectory>..\..\..\..\..\..\..\Users\ptruche\AppData\Roaming\Gallio\Icarus\Reports</reportDirectory>
+  <reportNameFormat>test-report-{0}-{1}</reportNameFormat>
+</testProject>
