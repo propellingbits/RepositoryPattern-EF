@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  
+  <configSections>
+    <section name="validation.extensions" type="Microsoft.Practices.Repository.Configuration.RepositoryFactorySection, Microsoft.Practices.Repository"/>    
+  </configSections>
+
+
+  <validation.extensions>
+
+    <!-- The ssnValidator element specifies the name of the SSN high number storage provider.
+         
+         Unless provided, an embedded resource is used as source data.  The source data
+         is dated October 2010.
+        -->
+    <ssnValidator ssnHighNumberStorageProvider="myType, myAssembly"/>
+    
+  </validation.extensions>
+
+</configuration>
